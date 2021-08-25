@@ -9,10 +9,41 @@
   </head>
   <body>
     <h1>Simple calculator</h1>
-    <table class="table_head"></table>
-    <img
-      src="https://cdn.discordapp.com/attachments/879708446998536252/880008833995509770/image_750x_5f81d60ba9f8f.png"
-      alt="model of calculator"
-    />
+    <table class="table_head">
+      <thead>
+        <tr>
+          <th colspan="4"><input type="text" id="input" /></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><input type="button" value="7" class="number" /></td>
+          <td><input type="button" value="8" class="number" /></td>
+          <td><input type="button" value="9" class="number" /></td>
+          <td><input type="button" value="+" class="operation" /></td>
+        </tr>
+        <tr>
+          <td><input type="button" value="4" class="number" /></td>
+          <td><input type="button" value="5" class="number" /></td>
+          <td><input type="button" value="6" class="number" /></td>
+          <td><input type="button" value="-" class="operation" /></td>
+        </tr>
+        <tr>
+          <td><input type="button" value="1" class="number" /></td>
+          <td><input type="button" value="2" class="number" /></td>
+          <td><input type="button" value="3" class="number" /></td>
+          <td><input type="button" value="x" class="operation" /></td>
+        </tr>
+        <tr>
+          <td>
+            <input type="button" value="C" class="operation" id="clear" />
+          </td>
+          <td><input type="button" value="0" class="number" /></td>
+          <td><input type="button" value="=" class="operation" /></td>
+          <td><input type="button" value="/" class="operation" /></td>
+        </tr>
+      </tbody>
+    </table>
+
   </body>
 </html>
